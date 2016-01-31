@@ -1,0 +1,9 @@
+
+.backtop-block{position: fixed;width: 48px;height: 100px;right: 30px;bottom: 30px;}
+.backtop-block ul{display: block;padding:0;margin: 0;}
+.backtop-block ul li {width: 48px;height: 48px;border: 0px solid gray;margin: 2px 0;list-style: none;}
+.backtop-block ul li a{text-decoration: none;text-align: center;color: #000000;}
+.backtop-item{width: 48px;height: 48px;display: block;background-repeat: no-repeat;}
+.backtop-item:hover{background-position: -48px 0px;cursor: pointer;cursor: hand;}
+.backtop{background-image: url('./img/top.png');}
+.backhome{background-image: url('./img/home.png');}
