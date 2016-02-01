@@ -74,8 +74,8 @@
   BackTop.init=function (type,times) {
     var html =
 	  	'<ul>'+
-	  		'<li><a class="backtop-item backtop" href="javascript:void(0);" title="返回顶部"></a></li>'+
-	  	  '<li><a class="backtop-item backhome" href="/" title="回到主页"></a></li>'+
+	  		'<li><a class="backtop-item backtop lnr lnr-chevron-up" href="javascript:void(0);" title="返回顶部"></a></li>'+
+	  	  '<li><a class="backtop-item backhome lnr lnr-home" href="/" title="回到主页"></a></li>'+
 	  	'</ul>';
     var element = document.createElement('div');
     element.setAttribute("class", "backtop-block");

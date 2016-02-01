@@ -1,13 +1,11 @@
 {
   "name": "backtop",
   "version": "1.0.0",
-  "description": "",
-  "main": "backtop.js",
+  "description": "web back to top component",
+  "main": "index.js",
   "scripts": {
-    "dev": "browser-sync start --server --files \"**/*.css, **/*.html, **/*.js\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "del": "^2.2.0",
@@ -18,5 +16,18 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1",
     "jshint": "^2.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeayXu/backtop.git"
+  },
+  "keywords": [
+    "backtop"
+  ],
+  "author": "seayxu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeayXu/backtop/issues"
+  },
+  "homepage": "https://github.com/SeayXu/backtop#readme"
 }
