@@ -16,7 +16,7 @@
 
 ## License
 
-![CC-BY-SA][2]
+[![CC-BY-SA][2]][1]
 
 [CC-BY-SA 4.0][1] © [SeayXu][3]
 
