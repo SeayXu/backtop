@@ -10,11 +10,39 @@
 
   3. import .js and .css files to web page.
 
+  ``` html
+  <link rel="stylesheet" href="./style/linearicons-free.min.css">
+  <link rel="stylesheet" href="./style/backtop.min.css">
+  <script type="text/javascript" src="./js/backtop.min.js"></script>
+  ```
+
   4. add script
 
   ``` javascript
   BackTop.init(1,500);
   ```
+# Sample
+
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>返回顶部组件示例</title>
+    <link rel="stylesheet" href="./style/linearicons-free.min.css">
+    <link rel="stylesheet" href="./style/backtop.min.css">
+    <style type="text/css">
+    	body{height: 6000px;}
+    </style>
+  </head>
+  <body>
+  </body>
+  <script type="text/javascript" src="./js/backtop.min.js"></script>
+  <script type="text/javascript">
+    BackTop.init(1,500);
+  </script>
+</html>
+```
 
 # API
 
