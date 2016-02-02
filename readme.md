@@ -18,20 +18,20 @@
 
 # API
 
-  ## BackTop.init(type,time);
+## BackTop.init(type,time);
 
-    ### type
+### type
 
-      >scroll type,default is 0.
+  >scroll type,default is 0.
 
-      0:uniform speed.
+  0:uniform speed.
 
-      1:uniform acceleration speed.
+  1:uniform acceleration speed.
 
-      2:uniform deceleration speed.
+  2:uniform deceleration speed.
 
-    ### time
-      >scroll times,default is 500ms.
+### time
+  >scroll times,default is 500ms.
 
 # Other
 
