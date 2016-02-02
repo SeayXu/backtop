@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   var BackTop = {};
 	BackTop.targetObj=null;
 	BackTop.Speed=0;
@@ -72,6 +73,14 @@
     }
 	};
   BackTop.init=function (type,times) {
+    console.log(type,times);
+    console.log(typeof(type),typeof(times));
+    if (typeof(type)=='undefined' || type===null || type==='') {
+      type = 0;
+    }
+    if (typeof(times)=='undefined' || times===null || times ==='' || times<=10) {
+      times = 500;
+    }
     var html =
 	  	'<ul>'+
 	  		'<li><a class="backtop-item backtop lnr lnr-chevron-up" href="javascript:void(0);" title="返回顶部"></a></li>'+
@@ -84,5 +93,5 @@
     target[0].onclick = function(){BackTop.start(type,times);};
     document.body.appendChild(element);
   };
-  BackTop.init(0,500);
-})();
+  window.BackTop = BackTop;
+}());

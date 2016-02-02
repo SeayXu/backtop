@@ -66,13 +66,13 @@ gulp.task('copy', function () {
 });
 
 // 编译
-gulp.task('build', ['clean'], function(){
-    gulp.run('lint', 'scripts', 'style', 'html', 'copy');
+gulp.task('build', function(){
+    gulp.run('clean','lint', 'scripts', 'style', 'html', 'copy');
 });
 
 // 默认任务
-gulp.task('default', ['build'], function(){
-    gulp.run('server');
+gulp.task('default', function(){
+    gulp.run('build','server');
 });
 
 // 静态服务器 + 监听 scss/html 文件
@@ -87,7 +87,7 @@ gulp.task('server', function() {
     gulp.watch('./src/style/*.css', function(){
         gulp.run('style');
     });
-    gulp.watch("./**.html", function(){
+    gulp.watch('./**.html', function(){
         gulp.run('html');
     });
 });
