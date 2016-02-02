@@ -20,7 +20,7 @@
 
 ## BackTop.init(type,time);
 
-### type
+* ### type
 
   >scroll type,default is 0.
 
@@ -30,7 +30,7 @@
 
   2:uniform deceleration speed.
 
-### time
+* ### time
   >scroll times,default is 500ms.
 
 # Other
