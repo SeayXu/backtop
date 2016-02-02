@@ -16,11 +16,14 @@
   <script type="text/javascript" src="./js/backtop.min.js"></script>
   ```
 
-  4. add script
+  4. add javascript code
 
   ``` javascript
-  BackTop.init(1,500);
+  <script type="text/javascript">
+    BackTop.init(1,500);
+  </script>
   ```
+
 # Sample
 
 ``` html
